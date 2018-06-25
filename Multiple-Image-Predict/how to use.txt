@@ -1,0 +1,11 @@
+Multiple Images Prediction
+You can run image prediction on more than one image using a single function, which is the .predictMultipleImages() function. It works by doing the following: 
+- Define your normal ImagePrediction instance 
+- Set the model type and model path 
+- Call the .loadModel() function 
+- Create an array and add all the string path to each of the images you want to predict to the array. 
+- You then perform prediction by calling the .predictMultipleImages() function and parse in the array of images, and also set the number predictions you want per image by parsing result_count_per_image=5 (default value is 2) 
+
+
+
+In the above code, the .predictMultipleImages() function will return an array which contains a dictionary per image. Each dictionary contains the arrays for predictions and percentage probability for each prediction. 
