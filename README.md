@@ -8,10 +8,15 @@ First download the below Dependencies
 
 TABLE OF CONTENTS
 ▣ First Prediction
+
 ▣ Prediction Speed
+
 ▣ Image Input Types
+
 ▣ Multiple Images Prediction
+
 ▣ Prediction in MultiThreading
+
 ▣ Documentation
 
 https://github.com/OlafenwaMoses/ImageAI/tree/master/imageai/Prediction
@@ -28,7 +33,9 @@ https://github.com/OlafenwaMoses/ImageAI/releases/download/1.0/inception_v3_weig
 https://github.com/OlafenwaMoses/ImageAI/releases/download/1.0/DenseNet-BC-121-32.h5
 
 1. 
+
 FirstPrediction.py
+
 Great! Once you have downloaded this model file, start a new python project, and then copy the model file to your project folder where your python files (.py files) will be . Download the image below, or take any image on your computer and copy it to your python project's folder. Then create a python file and give it a name; an example is FirstPrediction.py. Then write the code below into the python file: 
 
 
@@ -53,9 +60,13 @@ Sample Result:
 
 
 convertible : 52.459555864334106
+
 sports_car : 37.61284649372101
+
 pickup : 3.1751200556755066
+
 car_wheel : 1.817505806684494
+
 minivan : 1.7487050965428352
 
 The code above works as follows: 
@@ -130,23 +141,41 @@ Sample Result:
 
 
   
+
 convertible : 52.459555864334106
+
 sports_car : 37.61284649372101
+
 pickup : 3.1751200556755066
+
 car_wheel : 1.817505806684494
+
 minivan : 1.7487050965428352
+
 -----------------------
+
 toilet_tissue : 13.99008333683014
+
 jeep : 6.842949986457825
+
 car_wheel : 6.71963095664978
+
 seat_belt : 6.704962253570557
+
 minivan : 5.861184373497963
+
 -----------------------
+
 bustard : 52.03368067741394
+
 vulture : 20.936034619808197
+
 crane : 10.620515048503876
+
 kite : 10.20539253950119
+
 white_stork : 1.6472270712256432
+
 -----------------------
 
 
