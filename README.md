@@ -32,7 +32,7 @@ https://github.com/OlafenwaMoses/ImageAI/releases/download/1.0/inception_v3_weig
 - DenseNet121 by Facebook AI Research (Size = 31.6 mb, slower prediction time and highest accuracy) 
 https://github.com/OlafenwaMoses/ImageAI/releases/download/1.0/DenseNet-BC-121-32.h5
 
-1. 
+1. ImagePrediction
 
 FirstPrediction.py
 
@@ -93,9 +93,8 @@ The above line obtains each object in the predictions array, and also obtains th
 
 
 
-2.
+2. Multiple Images Prediction
 
-Multiple Images Prediction
 You can run image prediction on more than one image using a single function, which is the .predictMultipleImages() function. It works by doing the following: 
 - Define your normal ImagePrediction instance 
 - Set the model type and model path 
